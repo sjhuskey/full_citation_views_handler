@@ -1,0 +1,5 @@
+name = Full Citation
+description = Views handler to facilitate the display of full citations of bibliography, depending on the type of publication.
+core = 7.x
+dependencies[] = views
+files[] = views/full_citation_handler_custom_field.inc
