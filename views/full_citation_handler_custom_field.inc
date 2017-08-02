@@ -9,7 +9,7 @@
  * Provides a custom views field.
  */
 class full_citation_handler_custom_field extends views_handler_field {
-  function option_definition() {
+function option_definition() {
     $options = parent::option_definition();
     return $options;
   }
@@ -25,9 +25,9 @@ class full_citation_handler_custom_field extends views_handler_field {
   function render($data) {
     // If the devel module is enabled, you may view all of the
     // data provided by fields previously added in your view.
-    dpm($data);
+    // dpm($data);
     // Insert PHP code here, or display greeting.
     $output = t("Hello World!");
-    return $output; 
-  }
-}
+    return $output;
+    }
+ }
